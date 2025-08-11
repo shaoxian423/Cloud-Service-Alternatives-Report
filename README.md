@@ -24,8 +24,11 @@ This report compares key Microsoft Azure services used in the CST8919 course wit
 ## Azure Active Directory (SSO, IAM)
 
 ### Equivalents
-- **AWS Equivalent**: AWS Identity and Access Management (IAM) & AWS Single Sign-On (SSO)
-- **GCP Equivalent**: Google Cloud Identity & IAM
+- **AWS**: AWS Identity and Access Management (IAM) & AWS Single Sign-On (SSO)
+![alt text](Screenshot/image.png)
+
+- **GCP**: Google Cloud Identity & IAM
+![alt text](Screenshot/image1.png)
 
 ### Comparison Table
 | Aspect                     | Azure Active Directory (AAD) | AWS IAM & SSO | Google Cloud Identity & IAM |
@@ -44,9 +47,10 @@ Azure AD excels in hybrid identity scenarios and enterprise SSO with rich Condit
 ## Azure Monitor & Log Analytics
 
 ### Equivalents
-- **AWS Equivalent**: Amazon CloudWatch
-- **GCP Equivalent**: Google Cloud Monitoring & Logging
-
+- **AWS**: Amazon CloudWatch
+![alt text](Screenshot/image2.png)
+- **GCP**: Google Cloud Monitoring & Logging
+![alt text](Screenshot/image3.png)
 ### Comparison Table
 | Aspect                     | Azure Monitor & Log Analytics | Amazon CloudWatch | Google Cloud Monitoring & Logging |
 |----------------------------|-------------------------------|-------------------|-----------------------------------|
@@ -64,8 +68,8 @@ Azure Monitor’s Log Analytics with KQL offers powerful query capabilities for 
 ## Azure Policy
 
 ### Equivalents
-- **AWS Equivalent**: AWS Config & AWS Organizations SCP
-- **GCP Equivalent**: Google Cloud Resource Manager & Organization Policy Service
+- **AWS**: AWS Config & AWS Organizations SCP
+- **GCP**: Google Cloud Resource Manager & Organization Policy Service
 
 ### Comparison Table
 | Aspect                     | Azure Policy | AWS Config & SCP | Google Cloud Resource Manager & Policy |
@@ -84,9 +88,10 @@ Azure Policy excels in unified governance with built-in remediation. AWS Config 
 ## Defender for Cloud
 
 ### Equivalents
-- **AWS Equivalent**: AWS Security Hub
-- **GCP Equivalent**: Google Security Command Center (SCC)
-
+- **AWS**: AWS Security Hub
+![alt text](Screenshot/image4.png)
+- **GCP**: Google Security Command Center (SCC)
+![alt text](Screenshot/image5.png)
 ### Comparison Table
 | Aspect                     | Defender for Cloud | AWS Security Hub | Google Security Command Center |
 |----------------------------|--------------------|------------------|-------------------------------|
@@ -104,8 +109,10 @@ Defender for Cloud offers robust CSPM and threat detection with tight Azure inte
 ## Azure Sentinel (SIEM/SOAR)
 
 ### Equivalents
-- **AWS Equivalent**: Amazon Security Lake & AWS Security Hub
-- **GCP Equivalent**: Google Chronicle
+- **AWS**: Amazon Security Lake & AWS Security Hub
+![alt text](Screenshot/image6.png)
+- **GCP**: Google Chronicle
+![alt text](Screenshot/image7.png)
 
 ### Comparison Table
 | Aspect                     | Azure Sentinel | Amazon Security Lake & Security Hub | Google Chronicle |
@@ -123,3 +130,6 @@ Azure Sentinel provides a powerful SIEM/SOAR with KQL and playbook automation, i
 
 ## Conclusion
 Azure, AWS, and GCP provide robust security and compliance services tailored to DevSecOps. Azure excels in unified integration and enterprise features, AWS offers scalability and flexibility across tools, and GCP prioritizes cost-effective analytics. For DevSecOps, choose Azure for seamless CI/CD integration, AWS for complex multi-tool setups, and GCP for lightweight, analytics-driven security. Organizations adopting multi-cloud strategies should leverage standards like OpenID Connect for identity and SIEM data portability.
+
+## Icons
+All icons are sourced from Draw.io
